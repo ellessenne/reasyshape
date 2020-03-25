@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# `reasyshape`
+# Reshape Your Data Interactively
 
 <!-- badges: start -->
 
@@ -15,7 +15,8 @@ status](https://travis-ci.org/ellessenne/reasyshape.svg?branch=master)](https://
 status](https://ci.appveyor.com/api/projects/status/github/ellessenne/reasyshape?branch=master&svg=true)](https://ci.appveyor.com/project/ellessenne/reasyshape)
 <!-- badges: end -->
 
-The goal of `reasyshape` is to …
+`reasyshape` is a Shiny app that makes reshaping your data effortless,
+either from wide format to long or vice-versa.
 
 ## Installation
 
@@ -26,3 +27,13 @@ You can install the development version of `reasyshape` from
 # install.packages("remotes")
 remotes::install_github("ellessenne/reasyshape")
 ```
+
+Then, launch the app by typing in your R console:
+
+``` r
+library(reasyshape)
+reasyshape()
+```
+
+Alternatively, a live demo is hosted online at
+[ellessenne.shinyapps.io/reasyshape](https://ellessenne.shinyapps.io/reasyshape/).
